@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+h2{
+        font-family: 'Nosifer', cursive;
+        text-align:center;
+        font-size:250px;
+        text-shadow:0px 0px 20px #3869ff;
+       }
+      h1{
+        color:gray;
+      }
+      body{
+        background: #8c4;  
+        background: -webkit-linear-gradient(45deg, #d8ffcf, #00a537); 
+        background: linear-gradient(45deg, #d8ffcf, #00a537); 
+      }
+      #a{
+        color:#ff0000;
+        animation-name:a;
+        animation-duration:5s;
+        animation-iteration-count:infinite;
+      }
+      #b{
+        color:#ff4a6c;
+        animation-name:b;
+        animation-duration:5s;
+        animation-iteration-count:infinite;
+      }
+      #c{
+        color:#ff0000;
+        animation-name:c;
+        animation-duration:5s;
+        animation-iteration-count:infinite;
+      }
+      @keyframes a{
+        0%{
+          opacity:1;
+        }
+        13%{
+          opacity:0;
+        }
+        27%{
+          opacity:1;
+        }
+        42%{
+          opacity:0;
+        }
+        72%{
+          opacity:1;
+        }
+        80%{
+          opacity:0;
+        }
+        89%{
+          opacity:1;
+        }
+        100%{
+          opacity:0;
+        }
+      }
+ 
+      
+       @keyframes b{
+        0%{
+          opacity:1;
+        }
+        13%{
+          opacity:.5;
+        }
+        27%{
+          opacity:.7;
+        }
+        42%{
+          opacity:2;
+        }
+        72%{
+          opacity:.8;
+        }
+        80%{
+          opacity:1;
+        }
+        89%{
+          opacity:.3;
+        }
+        100%{
+          opacity:1;
+        }
+      }
+      
+      @keyframes c{
+        0%{
+          opacity:1;
+        }
+        15%{
+          opacity:0;
+        }
+        22%{
+          opacity:1;
+        }
+        37%{
+          opacity:0;
+        }
+        56%{
+          opacity:1;
+        }
+        77%{
+          opacity:0;
+        }
+        91%{
+          opacity:1;
+        }
+        100%{
+          opacity:0;
+        }
+      }
+      
