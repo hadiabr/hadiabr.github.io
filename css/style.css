@@ -1,178 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Monoton&display=swap');
-/* color pallete:
-    author:canva.com
-    name:Foil-covered Sneakers
-    link:https://www.canva.com/colors/color-palettes/foil-covered-sneakers/
-    colors & hex:
-      Dark Blue:#333652
-      
-      Yellow:#FAD02C
-
-      Pewter:#E9EAEC
-
-      Blue Gray:#90ADC6
-*/
-      
-body{
-  background:url(https://images.freecreatives.com/wp-content/uploads/2015/10/seamless_fabric_pattern_light.jpg);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-#image{
-  position:relative;
-  width:500px;
-  top:50px;
-  margin-left:23vw;
-  border-radius:10px;
-  border:solid;
-  padding:5px;
-  border-color:#90ADC6;
-  border-width:1px;
-  background-color:#FAD02C;
-  box-shadow: 0 20px 30px rgba(100,0,0,0.2), 0 12px 12px rgba(0,0,0,0.23);
-  max-width: 100%;
-  display: block;
-  height: auto;
-  margin: 0 auto;
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
 
-#title{
-  text-align:center;
-  color:#57a8a8;
-  position:relative;
-  top:20px;
-  font-family: 'Chelsea Market', cursive;
- text-shadow: 2px 2px #90ADC6;
-}
-#main{
-  margin-bottom: 100px;
-  
-}
-#img-div{
-  
-}
-#img-caption {
-  margin: 15px 0 5px 0;
-  text-align:center;
-font-family: 'Josefin Slab', serif;
-font-size:20px;
-}
-#tribute-info{
-  position:relative;
-  top:50px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
 }
 
-#tribute-link{
-  text-decoration:none;
-  color:#90ADC6;
-  padding-right:10px;
-  padding:2.5px;
-  border-width:5px;
-  border-color:red;
-  border-style:none none none solid; 
-
-  }
-footer{
-  position:relative;
-  top:15px;
-  color:#333652;
-  font-family: 'Josefin Slab', serif;
-  text-align:center
+nav ul li {
+    display: inline;
+    margin-right: 10px;
 }
 
-h2{
-  color:#57a8a8;
-  position:relative;
-  top:20px;
-  font-family: 'Chelsea Market', cursive;
-  font-size:20px;
-  margin-left:15px;
-    text-shadow: 1px 1px 2.5px #524F33;
-
-}
-p{
-  line-height:25px;
-  font-family: 'Josefin Slab', serif;
-font-size:17.5px;
-  color:#333652;
-  margin-left:50px;
-  margin-right:25px;
-
-text-align:justify;
-}
-#vid{
-  display: block;
-  height: 427.5px;
-  width:750px;
-  margin: 0 auto;
-  position:relative;
-  top:50px;
-  margin-bottom:30px;
-  border-radius:10px;
-  border:solid;
-  padding:5px;
-  border-color:#90ADC6;
-  border-width:1px;
-  background-color:#FAD02C;
-  box-shadow: 0 20px 30px rgba(100,0,0,0.2), 0 12px 12px rgba(0,0,0,0.23);
-}
-a:hover {
-  animation-name:a;
-  animation-duration:750ms;
-  animation-fill-mode:forwards;
-}
-@keyframes a{
-  0%{
-  }
-100% {
-  background-color:#333652;
-  color:#E9EAEC;
- 
-  }
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
 }
 
-blockquote {
-  quotes: "“" "”" ;
-  font-size:50px;
-font-family: 'Monoton', cursive;
-  color:#FAD02C;
-  border-radius:25px;
+nav ul li a:hover {
+    background-color: #111;
 }
-blockquote::before {
-    content: open-quote;
-}
-blockquote::after {
-    content: close-quote;
-}
-lorem{
-  font-size:20px;
-font-family: 'Lobster', cursive;
-}
-#q1{
-  border-style:none none none solid;
-  border-width:10px;
-  border-color:red;
-    background-color:#333652;
-  text-align:center;
 
+section {
+    padding: 20px;
 }
-#q2{
-   border-style:none solid none none;
-  border-width:10px;
-  border-color:red;
-text-align:center;
-    background-color:#333652;
 
+section h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
 }
-blockquote:hover{
-  animation-name:qh;
-  animation-duration:750ms;
-  animation-fill-mode:forwards;
-}
-@keyframes qh{
-  100%{
 
-   box-shadow:inset 0 0 25px #000000;
-  }
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
